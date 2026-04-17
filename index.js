@@ -19,7 +19,7 @@ async function sendInfoPanel(channelId) {
   const mainEmbed = new EmbedBuilder()
     .setTitle(`📋 Информация по проекту ${config.projectName}`)
     .setDescription(config.description)
-    .setColor('#FF1493')
+    .setColor('#FF0000')
     .addFields({
       name: '\u200B',
       value: config.additionalInfo
@@ -28,7 +28,7 @@ async function sendInfoPanel(channelId) {
   // Расписание серверов
   const scheduleEmbed = new EmbedBuilder()
     .setTitle('📋 Расписание серверов')
-    .setColor('#FF1493')
+    .setColor('#FF0000')
     .setDescription(
       `• **Время вайпа (летнего периода):** ${config.schedule.summerWipe.time} ${config.schedule.summerWipe.timezone} (${config.schedule.summerWipe.months})\n` +
       `• **Время вайпа (учебного периода):** ${config.schedule.schoolWipe.time} ${config.schedule.schoolWipe.timezone} (${config.schedule.schoolWipe.months})\n` +
@@ -55,7 +55,7 @@ async function sendInfoPanel(channelId) {
   // Полезные команды
   const commandsEmbed = new EmbedBuilder()
     .setTitle('📋 Полезные команды')
-    .setColor('#FF1493');
+    .setColor('#FF0000');
 
   let commandsText = '';
   config.commands.forEach(cmd => {
@@ -67,7 +67,7 @@ async function sendInfoPanel(channelId) {
   // Официальные ссылки
   const linksEmbed = new EmbedBuilder()
     .setTitle('📋 Официальные ссылки проекта')
-    .setColor('#FF1493')
+    .setColor('#FF0000')
     .setDescription(
       `**Наш магазин** - ${config.links.shop}\n` +
       `**Discord** - ${config.links.discord}\n` +
