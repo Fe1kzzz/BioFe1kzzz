@@ -1,6 +1,6 @@
 {
-  "projectName": "Burp Rust",
-  "description": "Burp Rust - Сервера, сделанные исключительно под действительно приятный и комфортный геймплей. Все плагины настроены идеально, а в совокупности с мощным железом и активной администрацией наш проект по праву можно считать одним из лучших!",
+  "projectName": "Fear Rust",
+  "description": "Fear Rust - Сервера, сделанные исключительно под действительно приятный и комфортный геймплей. Все плагины настроены идеально, а в совокупности с мощным железом и активной администрацией наш проект по праву можно считать одним из лучших!",
   "additionalInfo": "На наших серверах очень легко развиваться, присутствует много интересных плагинов для улучшения стандартного геймплея.",
   
   "schedule": {
@@ -14,37 +14,21 @@
       "timezone": "МСК",
       "months": "Сентябрь, Октябрь и другие..."
     },
-    "weeklyWipe": "Вторник",
+    "weeklyWipe": "Пятница",
     "globalWipe": "Пятница",
     "plannedRestart": "5:00 МСК"
   },
   
   "servers": [
     {
-      "name": "BURP RUST NOLIMIT",
+      "name": "FEAR RUST NOLIMIT",
       "multiplier": "X2",
       "wipeType": "Глобальный + карты",
-      "connect": "s1.burprust.gg"
-    },
-    {
-      "name": "BURP RUST VANILLA",
-      "multiplier": "X1.5",
-      "wipeType": "Глобальный",
-      "connect": "s2.burprust.gg"
-    },
-    {
-      "name": "BURP RUST CLANS",
-      "multiplier": "X5",
-      "wipeType": "Глобальный + карты",
-      "connect": "s3.burprust.gg"
+      "connect": "217.60.245.208:28015"
     }
   ],
   
   "commands": [
-    {
-      "command": "/block",
-      "description": "блокировка предметов после вайпа"
-    },
     {
       "command": "/trade",
       "description": "система обмена между игроками"
@@ -52,35 +36,25 @@
     {
       "command": "/report или F7",
       "description": "отправка жалоб на игрока"
-    },
-    {
-      "command": "/kit",
-      "description": "стартовые наборы и для привилегий"
     }
   ],
   
   "links": {
-    "shop": "https://burprust.ru/",
-    "discord": "https://discord.gg/BurpRust",
-    "telegram": "https://t.me/burp_rust",
-    "vk": "https://vk.com/burp_rust"
+    "shop": "https://1fearrust.gamestores.app",
+    "discord": "https://dsc.gg/fearrust",
+    "telegram": "https://t.me/fear_rust"
   },
   
   "buttons": [
     {
       "label": "Новости сервера",
       "emoji": "📢",
-      "url": "https://discord.gg/BurpRust"
-    },
-    {
-      "label": "Правила проекта",
-      "emoji": "📜",
-      "url": "https://burprust.ru/rules"
+      "url": "https://dsc.gg/FearRust"
     },
     {
       "label": "Правила Discord сервера",
       "emoji": "💬",
-      "url": "https://discord.gg/BurpRust"
+      "url": "https://dsc.gg/FearRust"
     }
   ]
 }
